@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche wikipedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="assets/wikiLogo.png" class="wiki-logo" alt="wikipedia logo">
+    <h1>Recherche <span>Wikipedia</span></h1>
+    <form>
+        <input 
+            type="text"
+            class="search-input"
+            placeholder="Recherchez un terme"
+        >
+    </form>
+    <p class="error-msg"></p>
+    <div class="results-display"></div>
+    <div class="loader">
+        <span class="dots"></span>
+        <span class="dots"></span>
+        <span class="dots"></span>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
